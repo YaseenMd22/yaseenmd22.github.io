@@ -273,13 +273,13 @@
 								
 								<p>I’m a Software Developer specializing in building scalable microservices and real-time distributed systems. My experience spans designing high-throughput backend services, integrating AI/ML models into production workflows, and optimizing cloud-native architectures for performance and reliability.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Software Developer</span></li>
+									<li class="d-flex"><span>Profile:</span> <span>Senior Software Engineer</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Master of Science, Computer Science</span></li>
-									<li class="d-flex"><span>Programming Languages:</span> <span> Java (8-21), Python (NumPy, Pandas, scikit-learn), TypeScript, JavaScript, C</span></li>
-									<li class="d-flex"><span>AI/ML:</span> <span> Model Integration, Preprocessing, Feature Pipelines, Inference, Versioning, Monitoring</span></li>
+									<li class="d-flex"><span>Programming Languages:</span> <span> Java (8-21), Python, TypeScript, JavaScript, C</span></li>
+									<li class="d-flex"><span>AI/ML:</span> <span> RAG, Embeddings, Vector Search, Reranking, Prompt Engineering, Fine-tuning (LoRA/QLoRA), Evaluation Harness, Guardrails/Observability</span></li>
 									<li class="d-flex"><span>Backend Development:</span> <span>Spring Boot, RESTful APIs, Microservices, JDBC, Hibernate/JPA, JSON, XML</span></li>
 									<li class="d-flex"><span>Databases:</span> <span>MySQL, MongoDB, Oracle, Data Modeling for ML Features</span></li>
-									<li class="d-flex"><span>Web Technologies:</span> <span>ReactJS, Angular, HTML5, CSS3, Modular Frontend Design</span></li>
+									<li class="d-flex"><span>Web Technologies:</span> <span>Angular, React, HTML5, CSS3, Bootstrap, Responsive Design, Redux, RxJS</span></li>
 									<li class="d-flex"><span>Messaging & Streaming:</span> <span>Apache Kafka, AWS SNS, AWS SQS, Event-Driven Architecture</span></li>
 									<li class="d-flex"><span>Cloud Platforms:</span> <span>AWS (EC2, S3, IAM, SES, SQS, SNS), GCP, Oracle Cloud Infrastructure, OpenShift</span></li>
 									<li class="d-flex"><span>DevOps & CI/CD:</span> <span>Jenkins Pipelines, GitHub Actions, Docker, Kubernetes, Helm, Maven, Gradle, Nexus</span></li>
@@ -338,20 +338,27 @@
 			<div class="col-md-6">
 				<div class="resume-wrap ftco-animate">
 					<span class="date">Discover</span>
-					<h2>Software Developer</h2>
+					<h2>Senior Software Engineer</h2>
 					<span class="mt-4">May 2025 - Present</span>
 					<br>
 					<span class="mt-4">Chicago, IL</span>
 					<!-- <p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International.  -->
 					<ul>
-						<li>Architected and deployed an autonomous AI agent system using AWS Strands SDK and Claude Sonnet 4 to resolve
-							billing tickets, reducing TTR from 25 days to under 10 minutes with 88% accuracy</li>
-						<li>Engineered semantic search with AWS Bedrock Titan and OpenSearch Vector Search, enabling intelligent service
-						selection and dynamic ticket classification across 10+ backend services</li>
-						<li>Delivering over 2 million transactional emails/day via scalable microservices integrated with AWS SES, Kafka, and
-							SQS, ensuring 99.9% reliable, event-driven communication</li>
-						<li>Designed and deployed 6+ resilient microservices on AWS and OpenShift (OCP), with 3-layer failover, compliance
-						checks, and delivery logic that improved throughput by 30%</li>
+						<li>Engineered an AI Ticket Resolution Assistant using AWS Bedrock (Claude), embeddings, and agent-driven
+							workflows to automate investigation, produce evidence-backed RCA summaries, and reduce triage time.</li>
+						<li>Developed a Retrieval-Augmented Generation (RAG) pipeline for engineering/support Q&A from internal knowledge
+							sources, improving answer correctness by 22% and reducing investigation time by 45%.</li>
+						<li>Implemented an embedding + vector search retrieval layer with chunking, metadata filters, and
+							freshness-aware retrieval, enabling sub-2s p95 responses across 25K+ documents/log snippets/runbooks.</li>
+						<li>Fine-tuned an internal LLM using LoRA on domain engineering/support Q&A and runbook content, improving response
+							accuracy and reducing unsupported answers while keeping training cost low by updating only lightweight adapter layers.</li>
+						<li>Operated over 2 million transactional emails/day via scalable microservices integrated with AWS SES, Kafka, and SQS,
+							ensuring 99.9% reliable, event-driven communication.</li>
+						<li>Deployed 6+ resilient microservices on AWS and OpenShift (OCP), with 3-layer failover, compliance checks, and delivery logic that improved throughput by 30%.</li>
+						<li>Migrated legacy monolithic workflows to modular, cloud-native microservices architecture on AWS and OCP,
+							reducing code complexity by 40% and improving system scalability and maintainability.</li>
+						<li>Owned On-call operations and production readiness for 6+ microservices, building dashboards and alerts,
+							maintaining runbooks, and leading incident triage and resolution to meet reliability SLAs.</li>
 					</ul>
 <!--					</span class="mt-4"> Technology Stack: Java, Spring Boot, ReactJS, MySQL, GCP, Docker, and Hibernate</span>-->
 					</p>
@@ -362,22 +369,20 @@
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Oracle</span>
-						<h2>Software Engineer</h2>
+						<h2>Software Developer</h2>
 						<span class="mt-4">Jun 2021 - Jun 2023</span>
 						<br>
 						<span class="mt-4">Bangalore, India </span>
 						<!-- <p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International.  -->
 							<ul>
-								<li>Built a multi-agent AI framework with RAG-based context retrieval (DynamoDB, CloudWatch, internal APIs) to
-									autonomously resolve payment issues, achieving 88% resolution accuracy</li>
-								<li>Integrated vector-based semantic search for service mapping and RCA, automating investigation workflows and
-								saving ~37 engineer-hours/month</li>
-								<li>Led the design and development of Oracle Cloud University web application, incorporating advanced features and
-								catalyzing a surge of 75,000 new monthly users</li>
-								<li>Implemented a microservices architecture, reducing server response time from 800ms to 200ms and minimizing
-								downtime incidents by 60%</li>
-								<li>Integrated RESTful APIs with OAuth2 tokens and JWT for secure authentication, and utilized Java multithreading for
-									asynchronous request processing, enhancing system responsiveness by 30%</li>
+								<li>Led the design and development of Oracle Cloud University web application, incorporating advanced features and catalyzing a surge of 12,000 new monthly users.</li>
+								<li>Launched an ML-driven content recommendation feature for Oracle Cloud University, leveraging user activity signals to
+									personalize course suggestions, improving course discovery and increasing content engagement by 20%.</li>
+								<li>Refactored from a monolith to microservices, reducing response time from 800ms to 200ms and cutting downtime by 60%.</li>
+								<li>Integrated RESTful APIs with OAuth2 tokens and JWT for secure authentication, and utilized Java
+									multithreading for asynchronous request processing, enhancing system responsiveness by 30%.</li>
+								<li>Built end-to-end observability and reliability improvements for Oracle Cloud University services by adding
+									structured logging, dashboards, and alerting, reducing incident triage time by 35% and improving production stability.</li>
 							</ul>
 <!--						</span class="mt-4"> Technology Stack: Spring Boot, Java 8, Microservices, Angular, TypeScript, MongoDB, Docker, OCI</span>-->
 						</p>
